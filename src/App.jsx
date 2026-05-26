@@ -14,14 +14,14 @@ const PRICE_DATA = [
   { category: "Anamnese", specialty: "Integração Sensorial", price: 330 },
   { category: "Anamnese", specialty: "Musicoterapia", price: 308 },
   { category: "Anamnese", specialty: "Neuropsicologia", price: 375 },
-  { category: "Anamnese", specialty: "Ozonioterapia", price: 308 },
   { category: "Anamnese", specialty: "Processamento Auditivo", price: 375 },
   { category: "Anamnese", specialty: "Psicologia", price: 308 },
   { category: "Anamnese", specialty: "Psicomotricidade", price: 308 },
   { category: "Anamnese", specialty: "Psicopedagogia", price: 308 },
+  { category: "Anamnese", specialty: "Equoterapia", price: 560 },
+  { category: "Anamnese", specialty: "Terapia Alimentar", price: 308 },
   { category: "Anamnese", specialty: "Terapia Ocupacional", price: 308 },
   { category: "Anamnese", specialty: "Interdisciplinar", price: 308 },
-  { category: "Anamnese", specialty: "Terapia Alimentar", price: 308 },
   { category: "Anamnese", specialty: "G.ESDM", price: 308 },
   { category: "Avaliação", specialty: "ABA", price: 297 },
   { category: "Avaliação", specialty: "Denver", price: 297 },
@@ -48,6 +48,7 @@ const PRICE_DATA = [
   { category: "Devolutiva", specialty: "Psicologia", price: 286 },
   { category: "Devolutiva", specialty: "Psicomotricidade", price: 286 },
   { category: "Devolutiva", specialty: "Psicopedagogia", price: 286 },
+  { category: "Devolutiva", specialty: "Terapia Alimentar", price: 286 },
   { category: "Devolutiva", specialty: "Terapia Ocupacional", price: 286 },
   { category: "Tratamento", specialty: "ABA", price: 274 },
   { category: "Tratamento", specialty: "Denver", price: 274 },
@@ -65,10 +66,10 @@ const PRICE_DATA = [
   { category: "Tratamento", specialty: "Terapia Ocupacional", price: 274 },
   { category: "Tratamento", specialty: "Therasuit", price: 353 },
   { category: "Tratamento", specialty: "DMI", price: 330 },
+  { category: "Tratamento", specialty: "Equoterapia", price: 560 },
+  { category: "Tratamento", specialty: "Terapia ABA", price: 274 },
   { category: "Consulta", specialty: "Nutrição", price: 386 },
-  { category: "Consulta", specialty: "Órtese", price: 498 },
   { category: "Exame", specialty: "PAC", price: 554 },
-  { category: "Outros", specialty: "Análise Funcional", price: 274 },
   { category: "Outros", specialty: "Coaching Parental", price: 274 },
   { category: "Outros", specialty: "Coordenação de Caso AT", price: 274 },
   { category: "Outros", specialty: "Coordenação de Caso Escola", price: 274 },
@@ -209,7 +210,7 @@ export default function App() {
     <div class="info-cell"><p>Data</p><p>${date}</p></div>
     <div class="info-cell"><p>Núcleo</p><p>${nucleo || "—"}</p></div>
   </div>
-  <div class="subtitle-box">Serviços terapêuticos especializados realizados em setting clínico, conduzidos por equipe interdisciplinar.</div>
+  <div class="subtitle-box">Atendimentos terapêuticos especializados, conduzidos por equipe interdisciplinar em setting clínico, com cuidado humanizado e foco no desenvolvimento integral, na comunicação, na autonomia e na inclusão de cada paciente.</div>
   <div class="sec-label">Serviços</div>
   <table>
     <thead><tr>
