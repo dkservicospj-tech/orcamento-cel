@@ -238,6 +238,7 @@ tbody td { padding:8px 10px; font-size:12px; color:#333; border-bottom:1px solid
     w.document.open();
     w.document.write(html);
     w.document.close();
+    w.document.title = "Orçamento - " + patient;
     w.focus();
     setTimeout(() => w.print(), 800);
   };
