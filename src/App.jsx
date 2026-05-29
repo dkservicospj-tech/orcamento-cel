@@ -152,7 +152,7 @@ export default function App() {
     ].join("");
 
     const html = `<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
-<title>Orçamento</title>
+<title>Orçamento - ${patient}</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
 @page { size: A4; margin: 12mm 10mm; }
