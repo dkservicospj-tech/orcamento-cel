@@ -69,6 +69,7 @@ const PRICE_DATA = [
   { category: "Tratamento", specialty: "DMI", price: 330 },
   { category: "Tratamento", specialty: "Equoterapia", price: 560 },
   { category: "Tratamento", specialty: "Terapia ABA", price: 274 },
+  { category: "Tratamento", specialty: "Assistente Terapêutico", price: 274 },
   { category: "Consulta", specialty: "Nutrição", price: 386 },
   { category: "Exame", specialty: "PAC", price: 554 },
   { category: "Outros", specialty: "Coaching Parental", price: 274 },
