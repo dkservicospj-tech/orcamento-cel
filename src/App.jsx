@@ -67,7 +67,7 @@ const PRICE_DATA = [
   { category: "Tratamento", specialty: "Psicopedagogia", price: 274 },
   { category: "Tratamento", specialty: "Saber", price: 274 },
   { category: "Tratamento", specialty: "Terapia ABA", price: 274 },
-  { category: "Tratamento", specialty: "Terapia ABA e AT", price: 274 },
+  { category: "Tratamento", specialty: "Terapia ABA e Assistente Terapeutico", price: 274 },
   { category: "Tratamento", specialty: "Terapia Alimentar", price: 274 },
   { category: "Tratamento", specialty: "Terapia Ocupacional", price: 274 },
   { category: "Tratamento", specialty: "Therasuit", price: 353 },
